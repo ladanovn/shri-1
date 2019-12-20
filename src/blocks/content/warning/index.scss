@@ -1,0 +1,13 @@
+@import "../../../style/variables.scss";
+
+.warning {
+    min-height: 335px;
+
+    .placeholder {
+        margin: $m auto;
+    }
+
+    &__button-wrapper {
+        display: flex;
+    }
+}

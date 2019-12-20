@@ -1,0 +1,74 @@
+.informer {
+
+    &_border {
+
+        &_all {
+            border: 3px solid var(--border);
+        }
+    }
+
+    &_view {
+
+        &_default {
+            background: var(--default);
+        }
+    }
+
+    &__content {
+
+        &_distribute {
+
+            &_default {
+                justify-content: unset;
+            }
+
+            &_between {
+                justify-content: space-between;
+            }
+
+            &_center {
+                justify-content: center;
+            }
+        }
+
+        &_space-a {
+
+            &_xl {
+                padding: $xl;
+            }
+
+            &_xxl {
+                padding: $xxl;
+            }
+        }
+    }
+
+    &__action {
+
+        &_distribute {  
+
+            &_default {
+                justify-content: unset;
+            }
+
+            &_between {
+                justify-content: space-between;
+            }
+
+            &_center {
+                justify-content: center;
+            }
+        }
+
+        &_space-a {
+
+            &_xl {
+                padding: $xl;
+            }
+
+            &_xxl {
+                padding: $xxl;
+            }
+        }
+    }
+}

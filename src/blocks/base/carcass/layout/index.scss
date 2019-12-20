@@ -1,0 +1,47 @@
+.layout {
+    
+    &__container {
+        margin-left: auto;
+        margin-right: auto;
+        background: var(--default);
+        
+        &_align_center {
+            text-align: center;
+        }
+
+        &_size {
+
+            &_s {
+                max-width: 920px;
+            }
+
+            &_m {
+                max-width: 1280px;
+            }
+        }
+
+        &_space-v {
+            
+            &_xxxxl {
+                padding-top: $xxxxl;
+                padding-bottom: $xxxxl;
+            }
+
+            &_xxxxxl {
+                padding-top: $xxxxxl;
+                padding-bottom: $xxxxxl;
+            }
+        }
+
+        &_indent-b {
+
+            &_xxl {
+                margin-bottom: $xxl;
+            }
+
+            &_xxxxl {
+                margin-bottom: $xxxxl;
+            }
+        }
+    }
+}

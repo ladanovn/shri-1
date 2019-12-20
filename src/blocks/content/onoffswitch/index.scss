@@ -1,0 +1,22 @@
+@import "../../../style/variables.scss";
+
+.onoffswitch {
+    cursor: pointer;
+    width: 97px;
+    height: 32px;
+    border: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+
+    &_checked &__button {
+        margin-left: auto;
+    }
+
+    &__button {
+        width: 24px;
+        height: 24px;
+        background: var(--border);
+        transition: .3s ease;
+    }
+}

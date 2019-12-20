@@ -1,0 +1,110 @@
+@import "../../../style/variables.scss";
+
+.theme {
+    background: var(--default);
+    transition: .2s ease;
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    &_color {
+
+        &_project-default {
+            --default: #FFFFFF;
+            --accent: #ffcc00;
+            --border: #000000;
+
+            --primary: #000000;
+            --secondary: rgba(0, 0, 0, 0.6);
+            --ghost:rgba(0, 0, 0, 0.3);
+            --link: #0077ff;
+        }
+
+        &_project-brand {
+            --default: #0077ff;
+            --accent: #FFFFFF;
+            --border: #FFFFFF;
+
+            --primary: #FFFFFF;
+            --secondary: rgba(255, 255, 255, 0.6);
+            --ghost:rgba(255, 255, 255, 0.3);
+            --link: #FFFFFF;
+        }
+
+        &_project-inverse {
+            --default: #000000;
+            --accent: #FFFFFF;
+            --border: #FFFFFF;
+
+            --primary: #FFFFFF;
+            --secondary: rgba(255, 255, 255, 0.6);
+            --ghost:rgba(255, 255, 255, 0.3);
+            --link: #0077ff;
+        }
+
+        &_project-warning {
+            --default: #ff3333;
+            --accent: #FFFFFF;
+            --border: #ff3333;
+
+            --primary: #FFFFFF;
+            --secondary: rgba(255, 255, 255, 0.6);
+            --ghost:rgba(255, 255, 255, 0.3);
+            --link: #FFF;
+        }
+    }
+
+    &_size {
+
+        &_default {
+            
+            &-s {
+                font-size: 8px;
+                line-height: 21px;     
+            }
+
+            &-m {
+                font-size: 10px;
+                line-height: 25px; 
+            }
+
+            &-l {
+                font-size: 11px;
+                line-height: 28px;
+            }
+
+            &-xl {
+                font-size: 13px;
+                line-height: 34px;
+            }
+
+            &-xxl {
+                font-size: 16px;
+                line-height: 38px;
+            }
+        }
+    }
+
+    &_space_default {
+        $xxxs: 3px;
+        $xxs: 6px;
+        $xs: 9px;
+        $s: 15px;
+        $m: 18px;
+        $l: 24px;
+        $xl: 27px;
+        $xxl: 36px;
+        $xxxl: 45px;
+        $xxxxl: 51px;
+        $xxxxxl: 72px;
+    }
+
+    &_gap_small {
+        --gap: #{$xxxl};
+
+        @media screen and (max-width: 768px) {
+            --gap: #{$m};
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import "../../../style/variables.scss";
+
+.cover {
+    min-height: 472px;
+
+    &__info {
+        text-align: left;
+    }
+
+    &__preview {
+        margin-bottom: $l;
+
+        .image {
+            height: 180px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+    }
+}

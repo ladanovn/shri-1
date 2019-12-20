@@ -1,0 +1,26 @@
+.section {
+
+    &_indent-b {
+
+        &_xxl {
+            margin-bottom: $xxl;
+        }
+
+        &_xxxxl {
+            margin-bottom: $xxxxl;
+        }
+    }
+
+    &_space-v {
+
+        &_xxl {
+            padding-top: $xxl;
+            padding-bottom: $xxl;
+        }
+
+        &_xxxxl {
+            padding-top: $xxxxl;
+            padding-bottom: $xxxxl;
+        }
+    }
+}

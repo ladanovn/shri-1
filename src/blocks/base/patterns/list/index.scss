@@ -1,0 +1,86 @@
+.list {
+
+    &_border {
+
+        &_all {
+            border: 3px solid var(--border);
+        }
+    }
+
+    &_view {
+
+        &_default {
+            background: var(--default);
+        }
+    }
+
+    &__item {
+
+        &_border {
+
+            &_bottom {
+                border-bottom: 3px solid var(--border);
+            }
+
+            &_top {
+                border-top: 3px solid var(--border);
+            }
+        }
+
+        &_distribute {
+            display: flex;
+
+            &_between {
+                justify-content: space-between;
+            }
+        }
+
+        &_vertical-align {
+            
+            &_center {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &_indent-t {
+
+            &_m {
+                margin-top: $m;
+            }
+        }
+
+        &_indent-b {
+
+            &_s {
+                margin-bottom: $s;
+            }
+
+            &_m {
+                margin-bottom: $m;
+            }
+
+            &_l {
+                margin-bottom: $l;
+            }
+
+            &_xl {
+                margin-bottom: $xl;
+            }
+        }
+
+        &_space-b {
+
+            &_s {
+                padding-bottom: $s;
+            }
+        }
+
+        &_space-a {
+
+            &_m {
+                padding-bottom: $m;
+            }
+        }
+    }
+}

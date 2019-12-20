@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title Index page
+    link(rel='stylesheet', href='./style.css')
+
+  body
+    .page.theme.theme_size_default.theme_space_default.theme_gap_small.theme_color_project-default
+      include blocks/content/header/index
+      .layout
+        .layout__container.layout__container_size_m.layout__container_align_center.section.section_indent-b_xxl
+          .grid.grid_col-gap_full.grid_row-gap_full.grid_m-columns_12
+            .grid__fraction.grid__fraction_m-col_4
+              include blocks/content/warning/index
+            .grid__fraction.grid__fraction_m-col_8
+              include blocks/content/payment/index
+        .layout__container.layout__container_size_m.layout__container_align_center.section.section_indent-b_xxl
+          .grid.grid_col-gap_half.grid_row-gap_half.grid_m-columns_10
+            .grid__fraction.grid__fraction_m-col_2
+              include blocks/content/product/index
+            .grid__fraction.grid__fraction_m-col_2
+              include blocks/content/product/index
+            .grid__fraction.grid__fraction_m-col_2
+              include blocks/content/product/index
+            .grid__fraction.grid__fraction_m-col_2
+              include blocks/content/product/index
+            .grid__fraction.grid__fraction_m-col_2
+              include blocks/content/product/index
+        .layout__container.layout__container_size_m.layout__container_align_center
+          .grid.grid_col-gap_full.grid_row-gap_full.grid_m-columns_10
+            .grid__fraction.grid__fraction_m-col_5
+              include blocks/content/history/index
+            .grid__fraction.grid__fraction_m-col_5
+              include blocks/content/event/index
+        include blocks/content/footer/index
+        
+  script(src="script.js")

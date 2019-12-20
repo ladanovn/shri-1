@@ -1,0 +1,12 @@
+@import "../../../style/variables.scss";
+
+.footer {
+    padding: $xxxl var(--gap);
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}

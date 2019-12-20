@@ -1,0 +1,50 @@
+@import "../../../style/variables.scss";
+
+.history {
+
+    & > div {
+        padding: $m;
+    }
+
+    &__details {
+        display: flex;
+    }
+
+    &__time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    &__destination {
+        display: flex;
+    }
+
+    &__quantity {
+        margin-left: auto;
+    }
+
+    &__hide {
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .history__info {
+        margin-top: 0px;
+        transition: .4s ease;
+    }
+
+    &__transaction {
+        cursor: pointer;
+
+        &_hide {
+
+            .history {
+
+                &__info {
+                    margin-top: -100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import "./variables.scss";
+@import "../blocks/base/carcass/index.scss";
+@import "../blocks/base/theme/index.scss";
+@import "../blocks/base/patterns/index.scss";
+@import "../blocks/base/content/index.scss";
+
+@import "../blocks/content/cover/index.scss";
+@import "../blocks/content/event/index.scss";
+@import "../blocks/content/footer/index.scss";
+@import "../blocks/content/header/index.scss";
+@import "../blocks/content/history/index.scss";
+@import "../blocks/content/inverseProduct/index.scss";
+@import "../blocks/content/onoffswitch/index.scss";
+@import "../blocks/content/payment/index.scss";
+@import "../blocks/content/product/index.scss";
+@import "../blocks/content/warning/index.scss";
+
+body {
+    margin: 0;
+}

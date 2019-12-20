@@ -1,0 +1,153 @@
+.text {
+
+    &_align {
+
+        &_center {
+            text-align: center;
+        }
+    }
+
+    &_size {
+
+        &_s {
+            @include size-default-s;
+        }
+
+        &_m {
+            @include size-default-m;
+        }
+
+        &_l {
+            @include size-default-l;
+        }
+
+        &_xl {
+            @include size-default-xl;
+        }
+
+        &_xxl {
+            @include size-default-xxl;
+        }
+    }
+
+    &_type {
+
+        &_h1 {
+            margin: 18px 0 24px;
+        }
+
+        &_h2 {
+            margin: 45px 0 21px;
+        }
+
+        &_h3 {
+            margin: 42px 0 0;
+        }
+
+        &_p {
+            margin: 15px 0 21px;
+        }
+    }
+
+    &_view {
+
+        &_primary .text__word {
+            background: var(--primary);
+        }
+
+        &_secondary .text__word {
+            background: var(--secondary);
+        }
+
+        &_ghost .text__word {
+            background: var(--ghost);
+        }
+
+        &_link .text__word {
+            background: var(--link);
+        }
+    }
+
+    &__word {
+        display: inline-block;
+        background: var(--primary);
+
+        &_width {
+            
+            .text_size_s &_s {
+                height: 8px;
+                width: 20px;
+            }
+
+            .text_size_s &_m {
+                height: 8px;
+                width: 48px;
+            }
+
+            .text_size_s &_l {
+                height: 8px;
+                width: 100px;
+            }
+
+            .text_size_m &_s {
+                height: 10px;
+                width: 24px;
+            }
+
+            .text_size_m &_m {
+                height: 10px;
+                width: 56px;
+            }
+
+            .text_size_m &_l {
+                height: 10px;
+                width: 114px;
+            }
+
+            .text_size_l &_s {
+                height: 11px;
+                width: 28px;
+            }
+
+            .text_size_l &_m {
+                height: 11px;
+                width: 68px;
+            }
+
+            .text_size_l &_l {
+                height: 11px;
+                width: 138px;
+            }
+
+            .text_size_xl &_s {
+                height: 13px;
+                width: 32px;
+            }
+
+            .text_size_xl &_m {
+                height: 13px;
+                width: 74px;
+            }
+
+            .text_size_xl &_l {
+                height: 13px;
+                width: 154px;
+            }
+
+            .text_size_xxl &_s {
+                height: 16px;
+                width: 36px;
+            }
+
+            .text_size_xxl &_m {
+                height: 16px;
+                width: 88px;
+            }
+
+            .text_size_xxl &_l {
+                height: 16px;
+                width: 184px;
+            }
+        }
+    }
+}

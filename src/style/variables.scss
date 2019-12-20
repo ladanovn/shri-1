@@ -1,0 +1,36 @@
+$xxxs: 3px;
+$xxs: 6px;
+$xs: 9px;
+$s: 15px;
+$m: 18px;
+$l: 24px;
+$xl: 27px;
+$xxl: 36px;
+$xxxl: 45px;
+$xxxxl: 51px;
+$xxxxxl: 72px;
+
+@mixin size-default-s {
+    font-size: 8px;
+    line-height: 21px;  
+}
+
+@mixin size-default-m {
+    font-size: 10px;
+    line-height: 25px; 
+}
+
+@mixin size-default-l {
+    font-size: 11px;
+    line-height: 28px;
+}
+
+@mixin size-default-xl {
+    font-size: 13px;
+    line-height: 34px;
+}
+
+@mixin size-default-xxl {
+    font-size: 16px;
+    line-height: 38px;
+}

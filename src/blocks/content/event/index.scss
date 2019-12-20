@@ -1,0 +1,22 @@
+@import "../../../style/variables.scss";
+
+.event {
+    min-height: 400px;
+    
+    &__content {
+        flex-direction: column;
+    }
+
+    &__preview {
+        display: flex;
+        margin-bottom: $xxl;
+
+        .avatar {
+            margin-right: $xs;
+        }
+    }
+
+    &__title {
+        margin-bottom: $s;
+    }
+}

@@ -1,0 +1,200 @@
+.form {
+
+    &_border {
+
+        &_all {
+            border: 3px solid var(--border);
+        }
+    }
+
+    &_view {
+
+        &_default {
+            background: var(--default);
+        }
+    }
+
+    &__item {
+
+        &_border {
+
+            &_bottom {
+                border-bottom: 3px solid var(--border);
+
+                &:last-of-type {
+                    border: none;
+                }
+            }
+        }
+
+        &_distribute {
+            display: flex;
+
+            &_between {
+                justify-content: space-between;
+            }
+        }
+
+        &_vertical-align {
+
+            &_center {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &_indent-b {
+
+            &_xxxs {
+                margin-bottom: $xxxs;
+            }
+
+            &_xxs {
+                margin-bottom: $xxs;
+            }
+
+            &_s {
+                margin-bottom: $s;
+            }
+
+            &_m {
+                margin-bottom: $m;
+            }
+
+            &_l {
+                margin-bottom: $l;
+            }
+
+            &_xl {
+                margin-bottom: $xl;
+            }
+
+            &_xxl {
+                margin-bottom: $xxl;
+            }
+
+            &_xxxl {
+                margin-bottom: $xxxl;
+            }
+
+            &_xxxxl {
+                margin-bottom: $xxxxl;
+            }
+        }
+
+        &_space-h {
+
+            &_xxxs {
+                padding-left: $xxxs;
+                padding-right: $xxxs;
+            }
+
+            &_xxs {
+                padding-left: $xxs;
+                padding-right: $xxs;
+            }
+
+            &_s {
+                padding-left: $s;
+                padding-right: $s;
+            }
+
+            &_m {
+                padding-left: $m;
+                padding-right: $m;
+            }
+
+            &_l {
+                padding-left: $l;
+                padding-right: $l;
+            }
+
+            &_xl {
+                padding-left: $xl;
+                padding-right: $xl;
+            }
+
+            &_xxl {
+                padding-left: $xxl;
+                padding-right: $xxl;
+            }
+
+            &_xxxl {
+                padding-left: $xxxl;
+                padding-right: $xxxl;
+            }
+
+            &_xxxxl {
+                padding-left: $xxxxl;
+                padding-right: $xxxxl;
+            }
+        }
+
+        &_space-v {
+
+            &_xxxs {
+                padding-top: $xxxs;
+                padding-bottom: $xxxs;
+            }
+
+            &_xxs {
+                padding-top: $xxs;
+                padding-bottom: $xxs;
+            }
+
+            &_s {
+                padding-top: $s;
+                padding-bottom: $s;
+            }
+
+            &_m {
+                padding-top: $m;
+                padding-bottom: $m;
+            }
+
+            &_l {
+                padding-top: $l;
+                padding-bottom: $l;
+            }
+
+            &_xl {
+                padding-top: $xl;
+                padding-bottom: $xl;
+            }
+
+            &_xxl {
+                padding-top: $xxl;
+                padding-bottom: $xxl;
+            }
+
+            &_xxxl {
+                padding-top: $xxxl;
+                padding-bottom: $xxxl;
+            }
+
+            &_xxxxl {
+                padding-top: $xxxxl;
+                padding-bottom: $xxxxl;
+            }
+        }
+    }
+
+    &__label {
+
+        &_width {
+
+            &_default {
+                width: 35%;
+            }
+        }
+    }
+
+    &__label + &__control {
+        display: inline-block;
+        width: 64%;
+    }
+
+    &__label + &__control, &__label{
+        display: inline-block;
+    }
+}

@@ -1,7 +1,8 @@
-@import "../../../style/variables.scss";
-
 .footer {
-    padding: $xxxl var(--gap);
+    padding-top: var(--xxxl);
+    padding-bottom: var(--xxxl);
+    padding-left: var(--gap);
+    padding-right: var(--gap);
 
     &__content {
         display: flex;

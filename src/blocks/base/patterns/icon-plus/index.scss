@@ -13,18 +13,18 @@
         &_indent-r {
 
             &_s {
-                margin-right: $s;
+                margin-right: var(--s);
             }
 
             &_m {
-                margin-right: $m;
+                margin-right: var(--m);
             }
         }
 
         &_indent-l {
 
             &_l {
-                margin-left: $l;
+                margin-left: var(--l);
             }
         }
     }

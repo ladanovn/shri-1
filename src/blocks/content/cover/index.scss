@@ -1,5 +1,3 @@
-@import "../../../style/variables.scss";
-
 .cover {
     min-height: 472px;
 
@@ -8,7 +6,7 @@
     }
 
     &__preview {
-        margin-bottom: $l;
+        margin-bottom: var(--l);
 
         .image {
             height: 180px;

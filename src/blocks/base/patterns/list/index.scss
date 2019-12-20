@@ -46,40 +46,40 @@
         &_indent-t {
 
             &_m {
-                margin-top: $m;
+                margin-top: var(--m);
             }
         }
 
         &_indent-b {
 
             &_s {
-                margin-bottom: $s;
+                margin-bottom: var(--s);
             }
 
             &_m {
-                margin-bottom: $m;
+                margin-bottom: var(--m);
             }
 
             &_l {
-                margin-bottom: $l;
+                margin-bottom: var(--l);
             }
 
             &_xl {
-                margin-bottom: $xl;
+                margin-bottom: var(--xl);
             }
         }
 
         &_space-b {
 
             &_s {
-                padding-bottom: $s;
+                padding-bottom: var(--s);
             }
         }
 
         &_space-a {
 
             &_m {
-                padding-bottom: $m;
+                padding-bottom: var(--m);
             }
         }
     }

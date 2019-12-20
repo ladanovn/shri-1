@@ -1,9 +1,7 @@
-@import "../../../style/variables.scss";
-
 .history {
 
     & > div {
-        padding: $m;
+        padding: var(--m);
     }
 
     &__details {

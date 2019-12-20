@@ -34,11 +34,11 @@
         &_space-a {
 
             &_xl {
-                padding: $xl;
+                padding: var(--xl);
             }
 
             &_xxl {
-                padding: $xxl;
+                padding: var(--xxl);
             }
         }
     }
@@ -63,11 +63,11 @@
         &_space-a {
 
             &_xl {
-                padding: $xl;
+                padding: var(--xl);
             }
 
             &_xxl {
-                padding: $xxl;
+                padding: var(--xxl);
             }
         }
     }

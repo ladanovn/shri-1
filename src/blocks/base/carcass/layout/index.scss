@@ -23,24 +23,24 @@
         &_space-v {
             
             &_xxxxl {
-                padding-top: $xxxxl;
-                padding-bottom: $xxxxl;
+                padding-top: var(--xxxxl);
+                padding-bottom: var(--xxxxl);
             }
 
             &_xxxxxl {
-                padding-top: $xxxxxl;
-                padding-bottom: $xxxxxl;
+                padding-top: var(--xxxxxl);
+                padding-bottom: var(--xxxxxl);
             }
         }
 
         &_indent-b {
 
             &_xxl {
-                margin-bottom: $xxl;
+                margin-bottom: var(--xxl);
             }
 
             &_xxxxl {
-                margin-bottom: $xxxxl;
+                margin-bottom: var(--xxxxl);
             }
         }
     }

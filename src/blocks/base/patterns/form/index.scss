@@ -46,135 +46,135 @@
         &_indent-b {
 
             &_xxxs {
-                margin-bottom: $xxxs;
+                margin-bottom: var(--xxxs);
             }
 
             &_xxs {
-                margin-bottom: $xxs;
+                margin-bottom: var(--xxs);
             }
 
             &_s {
-                margin-bottom: $s;
+                margin-bottom: var(--s);
             }
 
             &_m {
-                margin-bottom: $m;
+                margin-bottom: var(--m);
             }
 
             &_l {
-                margin-bottom: $l;
+                margin-bottom: var(--l);
             }
 
             &_xl {
-                margin-bottom: $xl;
+                margin-bottom: var(--xl);
             }
 
             &_xxl {
-                margin-bottom: $xxl;
+                margin-bottom: var(--xxl);
             }
 
             &_xxxl {
-                margin-bottom: $xxxl;
+                margin-bottom: var(--xxxl);
             }
 
             &_xxxxl {
-                margin-bottom: $xxxxl;
+                margin-bottom: var(--xxxxl);
             }
         }
 
         &_space-h {
 
             &_xxxs {
-                padding-left: $xxxs;
-                padding-right: $xxxs;
+                padding-left: var(--xxxs);
+                padding-right: var(--xxxs);
             }
 
             &_xxs {
-                padding-left: $xxs;
-                padding-right: $xxs;
+                padding-left: var(--xxs);
+                padding-right: var(--xxs);
             }
 
             &_s {
-                padding-left: $s;
-                padding-right: $s;
+                padding-left: var(--s);
+                padding-right: var(--s);
             }
 
             &_m {
-                padding-left: $m;
-                padding-right: $m;
+                padding-left: var(--m);
+                padding-right: var(--m);
             }
 
             &_l {
-                padding-left: $l;
-                padding-right: $l;
+                padding-left: var(--l);
+                padding-right: var(--l);
             }
 
             &_xl {
-                padding-left: $xl;
-                padding-right: $xl;
+                padding-left: var(--xl);
+                padding-right: var(--xl);
             }
 
             &_xxl {
-                padding-left: $xxl;
-                padding-right: $xxl;
+                padding-left: var(--xxl);
+                padding-right: var(--xxl);
             }
 
             &_xxxl {
-                padding-left: $xxxl;
-                padding-right: $xxxl;
+                padding-left: var(--xxxl);
+                padding-right: var(--xxxl);
             }
 
             &_xxxxl {
-                padding-left: $xxxxl;
-                padding-right: $xxxxl;
+                padding-left: var(--xxxxl);
+                padding-right: var(--xxxxl);
             }
         }
 
         &_space-v {
 
             &_xxxs {
-                padding-top: $xxxs;
-                padding-bottom: $xxxs;
+                padding-top: var(--xxxs);
+                padding-bottom: var(--xxxs);
             }
 
             &_xxs {
-                padding-top: $xxs;
-                padding-bottom: $xxs;
+                padding-top: var(--xxs);
+                padding-bottom: var(--xxs);
             }
 
             &_s {
-                padding-top: $s;
-                padding-bottom: $s;
+                padding-top: var(--s);
+                padding-bottom: var(--s);
             }
 
             &_m {
-                padding-top: $m;
-                padding-bottom: $m;
+                padding-top: var(--m);
+                padding-bottom: var(--m);
             }
 
             &_l {
-                padding-top: $l;
-                padding-bottom: $l;
+                padding-top: var(--l);
+                padding-bottom: var(--l);
             }
 
             &_xl {
-                padding-top: $xl;
-                padding-bottom: $xl;
+                padding-top: var(--xl);
+                padding-bottom: var(--xl);
             }
 
             &_xxl {
-                padding-top: $xxl;
-                padding-bottom: $xxl;
+                padding-top: var(--xxl);
+                padding-bottom: var(--xxl);
             }
 
             &_xxxl {
-                padding-top: $xxxl;
-                padding-bottom: $xxxl;
+                padding-top: var(--xxxl);
+                padding-bottom: var(--xxxl);
             }
 
             &_xxxxl {
-                padding-top: $xxxxl;
-                padding-bottom: $xxxxl;
+                padding-top: var(--xxxxl);
+                padding-bottom: var(--xxxxl);
             }
         }
     }

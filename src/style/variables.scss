@@ -1,14 +1,18 @@
-$xxxs: 3px;
-$xxs: 6px;
-$xs: 9px;
-$s: 15px;
-$m: 18px;
-$l: 24px;
-$xl: 27px;
-$xxl: 36px;
-$xxxl: 45px;
-$xxxxl: 51px;
-$xxxxxl: 72px;
+body {
+    --xxxs: 3px;
+    --xxs: 6px;
+    --xs: 9px;
+    --s: 15px;
+    --m: 18px;
+    --l: 24px;
+    --xl: 27px;
+    --xxl: 36px;
+    --xxxl: 45px;
+    --xxxxl: 51px;
+    --xxxxxl: 72px;
+    
+    margin: 0;
+}
 
 @mixin size-default-s {
     font-size: 8px;

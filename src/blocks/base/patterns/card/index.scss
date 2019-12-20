@@ -35,27 +35,27 @@
         &_space-a {
 
             &_m {
-                padding: $m;
+                padding: var(--m);
             }
 
             &_xl {
-                padding: $xl;
+                padding: var(--xl);
             }
 
             &_l {
-                padding: $l;
+                padding: var(--l);
             }
 
             &_xxl {
-                padding: $xxl;
+                padding: var(--xxl);
             }
 
             &_xxl {
-                padding: $xxl;
+                padding: var(--xxl);
             }
 
             &_xxxl {
-                padding: $xxxl;
+                padding: var(--xxxl);
             }
         }
     }
@@ -97,19 +97,19 @@
         &_space-a {
             
             &_m {
-                padding: $m;
+                padding: var(--m);
             }
 
             &_xl {
-                padding: $xl;
+                padding: var(--xl);
             }
 
             &_l {
-                padding: $l;
+                padding: var(--l);
             }
 
             &_xxl {
-                padding: $xxl;
+                padding: var(--xxl);
             }
         }
     }

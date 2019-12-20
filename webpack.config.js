@@ -30,7 +30,6 @@ const config = {
                 {
                     loader: MiniCssExtractPlugin.loader,
                     options: {
-                        publicPath: './static',
                         minimize: true,
                     },
                 },
@@ -62,11 +61,16 @@ const config = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'style.css',
+            filename: 'style.css'
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.pug',
+            inject: false
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'product.html',
+            template: 'src/product.pug',
             inject: false
         })
     ]

@@ -99,7 +99,7 @@
     }
 
     &_gap_small {
-        --gap: var(--xxxl);
+        --gap: var(--xl);
         
         @media screen and (max-width: 768px) {
             --gap: var(--m)

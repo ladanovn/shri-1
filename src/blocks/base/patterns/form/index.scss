@@ -21,8 +21,9 @@
             &_bottom {
                 border-bottom: 3px solid var(--border);
 
-                &:last-of-type {
+                .form__item:last-of-type {
                     border: none;
+                    margin: 0px;
                 }
             }
         }
@@ -191,7 +192,7 @@
 
     &__label + &__control {
         display: inline-block;
-        width: 64%;
+        width: 65%;
     }
 
     &__label + &__control, &__label{

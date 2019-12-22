@@ -82,5 +82,9 @@
                 padding-bottom: var(--m);
             }
         }
+
+        &:last-of-type {
+            border-bottom: none;
+        }
     }
 }

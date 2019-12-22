@@ -76,76 +76,91 @@
             .text_size_s &_s {
                 height: 8px;
                 width: 20px;
+                vertical-align: sub;
             }
 
             .text_size_s &_m {
                 height: 8px;
                 width: 48px;
+                vertical-align: sub;
             }
 
             .text_size_s &_l {
                 height: 8px;
                 width: 100px;
+                vertical-align: sub;
             }
 
             .text_size_m &_s {
                 height: 10px;
                 width: 24px;
+                vertical-align: text-bottom;
             }
 
             .text_size_m &_m {
                 height: 10px;
                 width: 56px;
+                vertical-align: text-bottom;
             }
 
             .text_size_m &_l {
                 height: 10px;
                 width: 114px;
+                vertical-align: text-bottom;
             }
 
             .text_size_l &_s {
                 height: 11px;
                 width: 28px;
+                vertical-align: text-top;
             }
 
             .text_size_l &_m {
                 height: 11px;
                 width: 68px;
+                vertical-align: text-top;
             }
 
             .text_size_l &_l {
                 height: 11px;
                 width: 138px;
+                vertical-align: text-top;
             }
 
             .text_size_xl &_s {
                 height: 13px;
                 width: 32px;
+                vertical-align: text-top;
             }
 
             .text_size_xl &_m {
                 height: 13px;
                 width: 74px;
+                vertical-align: text-top;
             }
 
             .text_size_xl &_l {
                 height: 13px;
                 width: 154px;
+                vertical-align: text-top;
             }
 
             .text_size_xxl &_s {
                 height: 16px;
                 width: 36px;
+                vertical-align: baseline;
             }
 
             .text_size_xxl &_m {
                 height: 16px;
                 width: 88px;
+                vertical-align: baseline;
             }
 
             .text_size_xxl &_l {
                 height: 16px;
                 width: 184px;
+                vertical-align: baseline;
             }
         }
     }

@@ -1,11 +1,16 @@
 .warning {
+    position: relative;
     min-height: 335px;
+    height: 100%;
 
     .placeholder {
         margin: var(--m) auto;
     }
 
     &__button-wrapper {
+        position: absolute;
         display: flex;
+        width: 100%;
+        bottom: 0px;
     }
 }

@@ -12,6 +12,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .text__word {
+            vertical-align: sub;
+        }
     }
     
     &__destination {

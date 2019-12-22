@@ -1,16 +1,14 @@
 import "./style/index.scss";
-import "./assets/images/image-placeholder-inverse.svg";
-import "./assets/images/image-placeholder-primary.svg";
 
 document.addEventListener('DOMContentLoaded', () => {
     document.body.addEventListener('click', (e) => {
         for (const item of e.path) {
             if (item.classList) {
                 if (item.classList.contains('history__transaction')) {
-                    if (item.classList.contains('history__transaction_hide')) {
-                        item.classList.remove('history__transaction_hide');
+                    if (item.classList.contains('history__transaction_opened')) {
+                        item.classList.remove('history__transaction_opened');
                     } else {
-                        item.classList.add('history__transaction_hide');
+                        item.classList.add('history__transaction_opened');
                     }
                     break;
                 }

@@ -7,8 +7,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background: var(--img-stub);
+            background-repeat: no-repeat;
+            background-position: center;
             height: 160px;
         }
+    }
+
+    .text__word {
+        vertical-align: middle;
     }
 
     &__footer {

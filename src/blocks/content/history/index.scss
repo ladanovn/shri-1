@@ -29,23 +29,27 @@
     &__hide {
         overflow: hidden;
         text-align: left;
-        margin: 0px;
+        display: none;
     }
 
     .history__info {
-        margin-top: 0px;
+        margin-top: -100%;
         transition: .4s ease;
     }
 
     &__transaction {
         cursor: pointer;
 
-        &_hide {
+        &_opened {
 
             .history {
 
+                &__hide {
+                    display: block;
+                }
+                
                 &__info {
-                    margin-top: -100%;
+                    margin-top: 0%;
                 }
             }
         }

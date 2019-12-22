@@ -1,12 +1,11 @@
 .layout {
     
     &__container {
-        margin-left: auto;
-        margin-right: auto;
         background: var(--default);
         
         &_align_center {
-            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &_size {

@@ -1,23 +1,24 @@
 import "./style/index.scss";
 
-document.addEventListener('DOMContentLoaded', () => {
-    document.body.addEventListener('click', (e) => {
+document.addEventListener("DOMContentLoaded", () => {
+    
+    document.body.addEventListener("click", (e) => {
         for (const item of e.path) {
             if (item.classList) {
-                if (item.classList.contains('history__transaction')) {
-                    if (item.classList.contains('history__transaction_opened')) {
-                        item.classList.remove('history__transaction_opened');
+                if (item.classList.contains("history__transaction")) {
+                    if (item.classList.contains("history__transaction_opened")) {
+                        item.classList.remove("history__transaction_opened");
                     } else {
-                        item.classList.add('history__transaction_opened');
+                        item.classList.add("history__transaction_opened");
                     }
                     break;
                 }
             }
         }
 
-        if (e.target.classList.contains('onoffswitch__button')) {
-            const switcher = document.getElementsByClassName('onoffswitch')[0];
-            const page = document.getElementsByClassName('page')[0];
+        if (e.target.classList.contains("onoffswitch__button")) {
+            const switcher = document.getElementsByClassName("onoffswitch")[0];
+            const page = document.getElementsByClassName("page")[0];
 
             if (switcher.classList.contains("onoffswitch_checked")) {
                 switcher.classList.remove("onoffswitch_checked");

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint . --cache && echo \"eslint: no lint errors\"",
+    "lint:fix": "eslint . --fix && echo \"eslint: no lint errors\""
   },
   "author": "",
   "license": "ISC",

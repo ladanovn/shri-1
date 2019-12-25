@@ -29,7 +29,7 @@
     &__hide {
         overflow: hidden;
         text-align: left;
-        display: none;
+        transition: .3s ease;
     }
 
     .history__info {
@@ -40,13 +40,19 @@
     &__transaction {
         cursor: pointer;
 
-        &_opened {
+        &:not(.history__transaction_opened) {
 
             .history {
 
                 &__hide {
-                    display: block;
+                    margin: 0px;
                 }
+            }
+        }
+
+        &_opened {
+
+            .history {
                 
                 &__info {
                     margin-top: 0%;
